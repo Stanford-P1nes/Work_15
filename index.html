@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/index.css">
+    <title>Work</title>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <div class='block-item signin'>
+                <h1>Зарегистрироваться</h1>
+                <div class='wrapper-button'>
+                    <button button="button" class='btn signin-btn'>Войти</button>
+                </div>
+            </div>
+            <div class='block-item signup'>
+                <h1>Войти</h1>
+                <div class='wrapper-button'>
+                    <button button="button" class='btn signup-btn'>Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <div class="wrapper wrapper_sign-in">
+                <div class='input-box'>
+                    <input type="text" placeholder='Login' onfocus='this.placeholder=""' onblur='this.placeholder="Login"' required>
+                </div>
+                <div class='input-box'>
+                    <input type="password" placeholder='Password' onfocus='this.placeholder=""' onblur='this.placeholder="Password"' required>
+                </div>
+                <button type='submit' class='btn'>Войти</button>
+            </div>
+            <div class="wrapper wrapper_sign-up">
+                <div class='input-box'>
+                    <input type="text" placeholder='Login' onfocus='this.placeholder=""' onblur='this.placeholder="Login"' required>
+                </div>
+                <div class='input-box'>
+                    <input type="email" placeholder='Password' onfocus='this.placeholder=""' onblur='this.placeholder="Email"' required>
+                </div>
+                <div class='input-box'>
+                    <input type="password" placeholder='Password' onfocus='this.placeholder=""' onblur='this.placeholder="Password"' required>
+                </div>
+                <button type='submit' class='btn'>Зарегистрироваться</button>
+            </div>
+        </div>
+    </div>
+
+<script src='./src/index.js'></script>
+</body>
+</html>
